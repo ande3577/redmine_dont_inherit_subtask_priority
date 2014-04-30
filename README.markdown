@@ -5,7 +5,10 @@
 Prevent a parent issue from inheriting the priority of its subtasks.  Issues 
 that have already had their priorities changed will NOT be changed back
 
-It is compatible with versions 2.4.x and 2.5.x.  Other versions may or may not work.
+It is compatible with versions 2.4.x and 2.5.x.  Other versions may or may not work. 
+
+Since this is a somewhat hacky implementation, it is highly to be broken in 
+future redmine versions.
 
 Please report issues to: 
   https://github.com/ande3577/redmine_dont_inherit_subtask_priority/issues
