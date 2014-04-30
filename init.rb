@@ -1,4 +1,5 @@
 require_dependency 'redmine_dont_inherit_subtask_priority_hooks'
+require_dependency 'dont_inherit_subtask_priority_issue_patch'
 
 Redmine::Plugin.register :redmine_dont_inherit_subtask_priority do
   name 'Redmine Dont Inherit Subtask Priority plugin'
